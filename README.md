@@ -39,6 +39,10 @@ Product structure, reservation-request behavior, high-level data model, SEO stra
 
 Production source code, detailed migrations/RLS implementation, service-role credentials, environment secrets, personal data and private administration.
 
+## Portfolio case
+
+[Open the full public case](https://mateus-nascimento-dev.lovable.app/projetos/solar-dos-pireneus)
+
 ## Author
 
 Mateus Nascimento dos Santos · [GitHub](https://github.com/matteusnascimento)
