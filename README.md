@@ -39,6 +39,19 @@ Product structure, reservation-request behavior, high-level data model, SEO stra
 
 Production source code, detailed migrations/RLS implementation, service-role credentials, environment secrets, personal data and private administration.
 
+## Code samples
+
+The `examples/` directory contains **sanitized, representative code for technical evaluation**. It demonstrates validation, data minimization, publication rules, tests and an illustrative RLS policy without exposing the production application or its real database policies.
+
+- [Examples overview](examples/README.md)
+- [Booking request validation](examples/booking/booking-request.ts)
+- [Booking request tests](examples/booking/booking-request.test.ts)
+- [Publication rules](examples/content/publication.ts)
+- [Publication tests](examples/content/publication.test.ts)
+- [Illustrative RLS policy](examples/security/rls-example.sql)
+
+All table names, IDs and records used by these examples are synthetic.
+
 ## Portfolio case
 
 [Open the full public case](https://mateus-nascimento-dev.lovable.app/projetos/solar-dos-pireneus)
